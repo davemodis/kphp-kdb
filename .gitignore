@@ -1,6 +1,6 @@
 *.o
-objs
-objs32
+#objs
+oabjs32
 dep
 dep32
 objsp
