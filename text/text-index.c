@@ -73,7 +73,7 @@ char *progname = "text-index", *username, *binlogname, *newidxname, *temp_binlog
 char metaindex_fname_buff[256], binlog_fname_buff[256], temp_binlog_fname_buff[256];
 int temp_binlog_dir_len;
 
-#define	MAX_USERS	(1 << 21)
+#define	MAX_USERS	(1 << 23)
 #define	NEGATIVE_USER_OFFSET	(1 << 20)
 
 /* stats counters */

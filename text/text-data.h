@@ -41,7 +41,7 @@
 #define	USERS_PRIME	1000003
 #define MAX_USERS	USERS_PRIME
 #else
-#define	MAX_USERS	(1 << 21)
+#define	MAX_USERS	(1 << 23)
 #define MAX_USERS_NUM	MAX_USERS
 #endif
 
